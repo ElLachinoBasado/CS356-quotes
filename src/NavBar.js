@@ -14,10 +14,10 @@ const NavBar = () => {
             <Nav.Link as={NavLink} to="/" className={styles.navLink}>
               Fire Emblem
             </Nav.Link>
-            <Nav.Link as={NavLink} to="/about" className={styles.navLink}>
+            <Nav.Link as={NavLink} to="/BG" className={styles.navLink}>
               Baldur's Gate
             </Nav.Link>
-            <Nav.Link as={NavLink} to="/contact" className={styles.navLink}>
+            <Nav.Link as={NavLink} to="/SF" className={styles.navLink}>
               Street Fighter
             </Nav.Link>
           </Nav>

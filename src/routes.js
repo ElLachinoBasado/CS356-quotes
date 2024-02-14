@@ -4,8 +4,8 @@ import StreetFighter from './pages/StreetFighter';
 
 const routes = [
   { path: '/', component: <FireEmblem />, exact: true },
-  { path: '/about', component: <BaldursGate /> },
-  { path: '/contact', component: <StreetFighter /> },
+  { path: '/BG', component: <BaldursGate /> },
+  { path: '/SF', component: <StreetFighter /> },
 ];
 
 export default routes;
