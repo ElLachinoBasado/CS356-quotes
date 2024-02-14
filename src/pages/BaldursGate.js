@@ -40,24 +40,7 @@ const BaldursGate = () => (
             </Accordion.Item>
             <Accordion.Item eventKey="1">
                 <Accordion.Header><QuoteCard text="NPCs"/></Accordion.Header>
-                <AccordionBody>
-                    <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
-                        <LongCard
-                            imageUrl="https://bg3.wiki/w/images/3/34/Minthara-levelup-screen.png"
-                            title="Minthara"
-                            text="Just give the word and I will kill the clown. We would be praised as heroes."
-                        />
-                        <LongCard
-                            imageUrl="https://bg3.wiki/w/images/f/f5/Karlach-character-creator.png"
-                            title="Karlach"
-                            text="But loneliness that deep gets into the marrow. Now that I'm here - among friends - I can feel it burning out of me. Little by little, step by step."
-                        />
-                        <LongCard
-                            imageUrl="https://bg3.wiki/w/images/4/49/Wyll-character-creator.png"
-                            title="Wyll"
-                            text="It's been seven years since I left. It's no paradise - but it's home. And it's worth saving."
-                        />
-                    </div>
+                <AccordionBody>                    
                     <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
                         <LongCard
                             imageUrl="https://bg3.wiki/w/images/5/55/Withers-face.png"
